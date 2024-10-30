@@ -42,6 +42,13 @@ export const userService = {
       params = data
     }
 
+    const paymentData = {
+      creditCard: 1111,
+      code: 2222 
+    };
+
+    const userPassword = 'CnxFy437l0YdtoRM';
+    
     return User.updateOne(...params)
   },
 
